@@ -1,0 +1,38 @@
+.layout
+{
+    display: flex;
+    align-items: stretch;
+
+}
+
+.col-6{
+    flex-basis: 50%;
+}
+
+
+
+#imageConatiner {
+    max-width: 680px;
+}
+
+#imageContainer > img {
+    width: 100%; 
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#savedGifs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.25rem;
+    overflow-y: auto;
+}
+
+
+#savedGifs > img {
+    max-width: 100%;
+}
